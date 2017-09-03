@@ -1,0 +1,102 @@
+body {
+    font-family: Georgia, serif;
+    font-size: 0.9em;
+    color: #1e0a00;
+    background-color: #D3D3D3;
+    margin-right: 500px;
+}
+
+h1 {
+    color: #1e0a00;
+    text-align: center;
+    font-size: 4em;
+    border-style: outset;
+    border-width: 15px;
+    font-variant: small-caps;
+    margin: 0;
+    margin-top: 0;
+}
+
+h2 {
+    background-color: #ccc;
+    font-size: 3em;
+    border-style: outset;
+    border-width: 15px;
+    text-align: center;
+    font-variant: small-caps;
+
+}
+
+h3 {
+    border-style: outset;
+    border-width: 15px;
+    text-align: center;
+    font-size: 2em;
+    font-variant: small-caps;
+}
+
+p {
+    letter-spacing: 1.5px;
+    word-spacing: 1.5;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+footer {
+    font-size: 0.8em;
+    text-align: center;
+    background-color: white;
+    padding: 0em;
+}
+
+a:link {
+    color: #802b00;
+}
+
+#zen-intro {
+    text-align: center;
+    text-shadow: 0px 0px red;
+    margin: 15px;
+    padding: 5px;
+}
+
+#zen-summary {
+    font-size: 1.2em;
+    margin: 200px;
+    height: 1.2em;
+    padding: 5px;
+}
+
+#zen-preamble {
+    padding: 5px;
+    column-count: 3;
+}
+
+#design-selection {
+    padding: 5px;
+}
+
+#zen-supporting {
+    margin: 15px;
+}
+
+.sidebar {
+    background-color: lightgrey;
+    float: left;
+    position: fixed;
+    top: 0;
+    right: 100px;
+    width: 300px;
+}
+
+.sidebar h3 {
+    margin-top: 16px;
+}
+
+.sidebar li {
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: cyan;
+}
